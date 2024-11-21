@@ -4,7 +4,6 @@ import afs.training.oo.Engine.ElectricEngine;
 import afs.training.oo.Engine.GasOlineEngine;
 import afs.training.oo.vehicel.Bus;
 import afs.training.oo.vehicel.Truck;
-import afs.training.oo.vehicel.Vehicel;
 
 public class Main {
     public static void main(String[] args) {
