@@ -1,25 +1,19 @@
 package afs.training.oo;
 
+import afs.training.oo.vehicel.Bus;
+import afs.training.oo.vehicel.Truck;
+import afs.training.oo.vehicel.Vehicel;
+
 public class Driver {
 
 
-    private Bus bus;
+    private Vehicel vehicel;
 
-    private Truck truck;
-
-    public Driver(Bus bus){
-        this.bus = bus;
+    public Driver(Vehicel vehicel){
+        this.vehicel = vehicel;
     }
 
-    public Driver(Truck truck){
-        this.truck = truck;
-    }
-
-    public void driveBus(){
-        bus.speedUp();
-    }
-
-    public void driveTruck(){
-        truck.speedUp();
+    public void drive(){
+        vehicel.speedUp();
     }
 }
