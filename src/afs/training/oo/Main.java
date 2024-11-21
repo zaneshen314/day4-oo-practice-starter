@@ -11,8 +11,8 @@ public class Main {
 //        new Truck("Big Truck", 20).speedUp();
 //        new Driver(new Bus("Cool Bus", 25)).driveBus();
 //        new Driver(new Truck("Big Truck", 20)).driveTruck();
-        new Driver(new Bus("Cool Bus", 25, new GasOlineEngine())).drive();
-        new Driver(new Bus("Cool Bus", 25, new ElectricEngine())).drive();
+        new Driver(new Bus("Cool Bus(gas)", 25, new GasOlineEngine())).drive();
+        new Driver(new Bus("Cool Bus(elc)", 25, new ElectricEngine())).drive();
         new Driver(new Truck("Big Truck", 20)).drive();
 
     }
